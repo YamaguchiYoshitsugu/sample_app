@@ -1,0 +1,15 @@
+<footer class="footer">
+	<small>
+		<a href="http://wailstutorial.jp/">Rails Tutorial</a>
+		by Michael Hartl
+	</small>
+
+	<nav>
+		<ul>
+			<li><%= link_to "About", '/static_pages/About' %></li>
+			<li><%= link_to "Contact", '/static_pages/Contact' %></li>
+			<li><a href="http://news.railstutorial.jp/">News</a></li>
+		</ul>
+	</nav>
+</footer>
+
